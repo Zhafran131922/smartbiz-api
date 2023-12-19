@@ -1,6 +1,6 @@
 const Hapi = require('@hapi/hapi');
 const Joi = require('@hapi/joi');
-const mysql = require('mysql');
+const mysql = require('mysql12');
 const nodemailer = require('nodemailer');
 const { generateSixDigitToken } = require('./utils');
 
